@@ -7,8 +7,8 @@
     "start" : "webpack -d && cp src/index.html www/index.html && nodemon",
     "prod": "webpack -p && cp src/index.html www/index.html && node ./server/server.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Saagar",
+  "license": "MIT"
   "dependencies": {
     "babel-core": "^6.18.2",
     "body-parser": "^1.15.2",
