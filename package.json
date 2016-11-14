@@ -8,7 +8,7 @@
     "prod": "webpack -p && cp src/index.html www/index.html && node ./server/server.js"
   },
   "author": "Saagar",
-  "license": "MIT"
+  "license": "MIT",
   "dependencies": {
     "babel-core": "^6.18.2",
     "body-parser": "^1.15.2",
