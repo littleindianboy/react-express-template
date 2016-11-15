@@ -4,8 +4,7 @@
   "description": "",
   "main": "./server/server.js",
   "scripts": {
-    "start" : "webpack -d && cp src/index.html www/index.html && nodemon",
-    "prod": "webpack -p && cp src/index.html www/index.html && node ./server/server.js"
+    "start" : "node /server/server.js"
   },
   "author": "Saagar",
   "license": "MIT",
