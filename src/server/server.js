@@ -51,4 +51,5 @@ app.get('*', function(req, res) {
 
 http.listen(app.get('port'), () => {
   console.log('Server Running on localhost:' + app.get('port'));
+  console.log('Webpack will compile soon...');
 });
