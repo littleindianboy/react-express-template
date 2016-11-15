@@ -7,7 +7,7 @@ class ComponentOne extends React.Component {
             <div>
                 <h3>ComponentOne</h3>
                 <p>This is the main app component</p>
-                <IndexLink to="/component2">To Component2</IndexLink>
+                <Link to="/component2">To Component2</Link>
             </div>
         )
     }
